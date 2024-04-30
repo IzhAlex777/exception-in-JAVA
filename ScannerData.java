@@ -32,7 +32,7 @@ class ParseStringData{
             }
 
             try {
-                File file = new File("./resultTaskException",a[0]+".txt");
+                File file = new File("./exceptions-in-JAVA",a[0]+".txt");
                 if (file.exists()){
                     FileWriter writer = new FileWriter(file, true);
                     writer.write("\n"+ a[0]+" "+ a[1]+" "+a[2]+" "+a[3]+" "+a[4]+" "+a[5]);
